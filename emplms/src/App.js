@@ -6,7 +6,9 @@ import { Admin } from './components/Admin';
 import { EmployeeList } from './components/EmployeeList';
 function App() {
   return (
+    <div className='App'>
     <BrowserRouter>
+    
     <Navbar/>
     <Routes>
       <Route path="/" element={<Home/>}/>
@@ -15,6 +17,7 @@ function App() {
     </Routes>
     
     </BrowserRouter>
+    </div>
   );
 }
 
